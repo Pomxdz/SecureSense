@@ -4,9 +4,9 @@ SecureSense is a local cybersecurity awareness prototype that combines phishing 
 
 ## Project structure
 
-- `Member1_Ranasinghe/` - phishing simulation templates, landing pages, local mail sandbox, and SMTP proxy
-- `Member2_Dissanayake/` - FastAPI backend, AI-assisted risk scoring, learning content, and prototype database logic
-- `Member3_Rathnavibushana/` - administrator and employee web interfaces
+- `Member1` - phishing simulation templates, landing pages, local mail sandbox, and SMTP proxy
+- `Member2` - FastAPI backend, AI-assisted risk scoring, learning content, and prototype database logic
+- `Member3` - administrator and employee web interfaces
 - `tests/` - automated and browser-oriented workflow tests
 - `Documentation/` - technical report and supporting project documentation
 - `Walkthrough_Documents/` - setup, demonstration, and troubleshooting guides
