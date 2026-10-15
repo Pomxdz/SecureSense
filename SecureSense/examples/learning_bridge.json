@@ -1,0 +1,5 @@
+{
+  "campaign_id": "REPLACE_WITH_GOPHISH_CAMPAIGN_ID",
+  "public_base": "http://127.0.0.1:8000",
+  "trigger": "test_form_submission"
+}

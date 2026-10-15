@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SecureSense · Integration setup</title><link rel="stylesheet" href="style.css"><script src="script.js" defer></script></head>
+<body data-page="settings"><div class="shell">
+<aside class="sidebar"><div class="brand"><span class="brand-logo" aria-hidden="true"></span>SecureSense</div><small>Small steps. Safer teams.</small>
+<nav aria-label="Main navigation"><a href="admin.html">Team overview</a><a href="admin.html#aiRisk">AI risk scores</a><a href="admin.html#participants">Participant results</a><a href="admin.html#quizManagement">Quiz management</a><a class="active" href="settings.html">Integration setup</a></nav>
+<button id="logout" type="button">Sign out</button></aside>
+<main>
+<header class="top"><div><h1>Integration setup</h1><p class="muted">Secrets are set in .env on the host and are never shown here.</p></div><div class="toolbar"><button id="refresh" class="secondary" type="button">Refresh</button></div></header>
+<div id="error" class="banner error hidden" role="alert"></div>
+<section class="panel"><h2>Integration status</h2><div id="integrationStatus"></div></section>
+<section class="panel"><h2>Authenticated API console</h2><p>Use the JSON examples in examples/ and the walkthrough. Campaign details are fixed after import. Provisioning an account resets that user's sessions.</p><form id="requestForm"><label for="endpoint">Operation</label><p class="field-gap"><select id="endpoint"><option value="/admin/campaigns">Import campaign and recipient mapping</option><option value="/admin/gophish/sync">Synchronize live Gophish campaign</option><option value="/admin/learning/bridge">Generate campaign learning landing HTML</option><option value="/admin/users">Provision or reset account</option></select></p><label for="payload">JSON request</label><p class="field-gap"><textarea id="payload" rows="16" cols="80" required spellcheck="false"></textarea></p><button type="submit">Send request</button></form><div id="requestResult" aria-live="polite" class="mt-16"></div><p><a href="/openapi.json">View complete API schema</a></p></section>
+</main></div></body></html>

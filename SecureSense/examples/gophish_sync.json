@@ -1,0 +1,19 @@
+{
+  "campaign": {
+    "id": "REPLACE_WITH_GOPHISH_CAMPAIGN_ID",
+    "name": "ShieldPay account security exercise",
+    "category": "Credential Harvesting",
+    "theme": "Account security",
+    "objective": "test_form_submission",
+    "persuasion": ["urgency", "authority"],
+    "identity": "IT support",
+    "warning_signs": ["Unexpected request", "Unfamiliar destination domain"],
+    "difficulty": "moderate",
+    "audience_relevance": "Reviewed for the fictional test audience",
+    "source": "live",
+    "launched_at": "REPLACE_WITH_CAMPAIGN_LAUNCH_ISO_TIMESTAMP"
+  },
+  "departments": {
+    "amali.perera@example.test": "Finance"
+  }
+}
